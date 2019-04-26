@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjbrons/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjbrons/portfolio/issues"
+  },
+  "homepage": "https://github.com/rjbrons/portfolio#readme",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4"
+  }
+}
