@@ -6,25 +6,25 @@
   width: 1400px;
 }
 
-@media screen and (min-width: 961px) and (max-width: 1880px) {
+@media screen and (min-width: 737px) and (max-width: 1880px) {
   .container {
     width: 1200px;
   }
 }
 
-@media screen and (min-width: 961px) and (max-width: 1620px) {
+@media screen and (min-width: 737px) and (max-width: 1620px) {
   .container {
     width: 960px;
   }
 }
 
-@media screen and (min-width: 961px) and (max-width: 1320px) {
+@media screen and (min-width: 737px) and (max-width: 1320px) {
   .container {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 736px) {
   .container {
     width: 100%;
   }
@@ -279,7 +279,7 @@
   padding-top: 80px;
 }
 
-@media screen and (min-width: 961px) and (max-width: 1880px) {
+@media screen and (min-width: 737px) and (max-width: 1880px) {
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -522,7 +522,7 @@
   }
 }
 
-@media screen and (min-width: 961px) and (max-width: 1620px) {
+@media screen and (min-width: 737px) and (max-width: 1620px) {
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -765,7 +765,7 @@
   }
 }
 
-@media screen and (min-width: 961px) and (max-width: 1320px) {
+@media screen and (min-width: 737px) and (max-width: 1320px) {
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -1008,7 +1008,7 @@
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 736px) {
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -1716,8 +1716,8 @@
 }
 
 #main > section.one {
-  background-color: #81918e;
-  background-image: url('../../images/banner.jpg');
+  /* background-color: #81918e; */
+  /* background-image: url('../../images/banner.jpg'); */
 }
 
 #main > section.two {
@@ -1734,7 +1734,7 @@
 
 /* Wide */
 
-@media screen and (min-width: 961px) and (max-width: 1880px) {
+@media screen and (min-width: 737px) and (max-width: 1880px) {
   /* Basic */
 
   body,
@@ -1765,7 +1765,7 @@
 
 /* Normal */
 
-@media screen and (min-width: 961px) and (max-width: 1620px) {
+@media screen and (min-width: 737px) and (max-width: 1620px) {
   /* Main */
 
   #main > section {
@@ -1779,7 +1779,7 @@
 
 /* Narrow */
 
-@media screen and (min-width: 961px) and (max-width: 1320px) {
+@media screen and (min-width: 737px) and (max-width: 1320px) {
   /* Basic */
 
   body,
@@ -1851,7 +1851,7 @@
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 736px) {
   /* Basic */
 
   html,
@@ -2094,4 +2094,13 @@
   #footer .copyright li:first-child {
     margin-top: 0;
   }
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
