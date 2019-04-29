@@ -1,5 +1,7 @@
 # portfolio
 
+#lab04
+
 Number and name of feature: Feature 1
 
 Estimate of time needed to complete: 1hr
@@ -19,3 +21,14 @@ Start time: 10:45
 Finish time: 12:15 - had to stop for PPH
 
 Actual time needed to complete: N/A its not really done yet, had to submit what i had.
+
+#lab05a
+Number and name of feature: Feature 1 - add functionality
+
+Estimate of time needed to complete: 2hr
+
+Start time: 9:20
+
+Finish time:
+
+Actual time needed to complete: m mins
